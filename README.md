@@ -14,5 +14,5 @@ Lastly each labeled image-region was computed with skimage's regionprops method.
 ![]()
 
 # References
-*[Image labeling](https://scikit-image.org/docs/dev/auto_examples/segmentation/plot_label.html)
-*[RGB TO Grayscale](https://www.kdnuggets.com/2019/12/convert-rgb-image-grayscale.html)
+* [Image labeling](https://scikit-image.org/docs/dev/auto_examples/segmentation/plot_label.html)
+* [RGB TO Grayscale](https://www.kdnuggets.com/2019/12/convert-rgb-image-grayscale.html)
