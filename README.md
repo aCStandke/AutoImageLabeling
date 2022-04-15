@@ -1,5 +1,5 @@
 # Where is Waldo in this picture?
-![]()
+![](https://github.com/aCStandke/AutoImageLabeling/blob/main/waldo.jpeg)
 
 # Finding Waldo by using image labeling:
 A 3 dimensional image (i.e. RGB) is converted into a 2 dimensional grayscale image by taking a normalized average of the red, green, and blue channel values. This combines the luminance of each color band into a reasonable (in other words, fast!) grayscale approximation. 
@@ -11,7 +11,7 @@ After removing artifacts with skimage's clear boarder method, the regions were l
 Lastly each labeled image-region was computed with skimage's regionprops method. After many different trials, the number of pixels in the labeled region was decided to be greater than or equal to 1980 and less than 2405. And Waldo was found and labeled, as seen below!
  
 # End Result
-![]()
+![](https://github.com/aCStandke/AutoImageLabeling/blob/main/waldo.png)
 
 # References
 * [Image labeling](https://scikit-image.org/docs/dev/auto_examples/segmentation/plot_label.html)
